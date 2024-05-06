@@ -20,6 +20,15 @@ public class PhysicalActivity extends Activity {
         this.caloriesBurned = caloriesBurned;
     }
 
+    // Getter methods
+    public int getDuration() {
+        return duration;
+    }
+
+    public double getCaloriesBurned() {
+        return caloriesBurned;
+    }
+
     // method to calculate calories burned
     public double calculateCaloriesBurned(double weight) {
         // simple callculation
